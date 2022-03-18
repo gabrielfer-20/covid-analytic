@@ -3,6 +3,8 @@ import Img from 'next/image';
 
 export const CountryItem = ({ country }) => {
 	const { data, loading, error404 } = useFetchCountry(country);
+	const setCountryName =
+		`${country}`.charAt().toUpperCase() + `${country}`.slice(1).toLowerCase();
 
 	return (
 		<>
@@ -14,7 +16,7 @@ export const CountryItem = ({ country }) => {
 					<div className="font-poppins leading-8 flex flex-col">
 						<div className="flex">
 							<h3 className=" font-semibold text-emerald-700"> Pais: </h3>
-							<p className="text-gray-700 ml-1"> {data.country}</p>
+							<p className="text-gray-700 ml-1"> {setCountryName}</p>
 						</div>
 
 						<div className="flex">

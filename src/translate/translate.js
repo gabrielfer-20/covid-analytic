@@ -1,13 +1,15 @@
 export const translateContry = (country) => {
-	switch (country) {
+	const strLowerCase = country.toLowerCase();
+
+	switch (strLowerCase) {
 		case 'bielorrusia':
 			return 'belarus';
-		case 'belgium':
-			return 'belgica';
+
 		case 'belice':
 			return 'belize';
 		case 'belgica':
 			return 'belgium';
+
 		case 'islas bermudas':
 			return 'bermuda';
 		case 'bután':
@@ -16,7 +18,7 @@ export const translateContry = (country) => {
 			return 'botswana';
 		case 'brasil':
 			return 'brazil';
-		case 'Islas Vírgenes Británicas':
+		case 'islas vírgenes británicas':
 			return 'British Virgin Islands';
 		case 'camboya':
 			return 'cambodia';
@@ -44,11 +46,11 @@ export const translateContry = (country) => {
 			return 'Curaçao';
 		case 'chipre':
 			return 'cyprus';
-		case 'Chequia':
+		case 'chequia':
 			return 'czquia';
 		case 'dinamarca':
 			return 'denmark';
-		case 'Yibuti':
+		case 'yibuti':
 			return 'djibouti';
 		case 'egipto':
 			return 'egypt';
@@ -74,7 +76,7 @@ export const translateContry = (country) => {
 			return 'greenland';
 		case 'granada':
 			return 'Grenada';
-		case 'Guadalupe':
+		case 'guadalupe':
 			return 'guadeloupe';
 		case 'islandia':
 			return 'iceland';
@@ -118,13 +120,13 @@ export const translateContry = (country) => {
 			return 'NewZealand';
 		case 'noruega':
 			return 'norway';
-		case 'Palestina':
+		case 'palestina':
 			return 'Palestine';
 		case 'filipinas':
 			return 'Philippines';
 		case 'polonia':
 			return 'poland';
-		case 'Rusia':
+		case 'rusia':
 			return 'Russia';
 		case 'corea del sur':
 			return 'S. Korea';
@@ -146,11 +148,11 @@ export const translateContry = (country) => {
 			return 'South sudan';
 		case 'españa':
 			return 'spain';
-		case 'Suazilandia':
+		case 'suazilandia':
 			return 'Swaziland';
 		case 'suiza':
 			return 'switzerland';
-		case 'Tayikistan':
+		case 'tayikistan':
 			return 'Tajikistan';
 		case 'tailandia':
 			return 'Thailand';
