@@ -20,7 +20,8 @@ export const SearchCountry = ({ setCountry }) => {
 	return (
 		<form
 			onSubmit={handleSubmit}
-			className="flex items-center relative md:w-2/6 w-full">
+			className="flex items-center relative md:w-2/6 w-full"
+			id="form-search-country">
 			<input
 				type="text"
 				className="font-poppins shadow-md focus:outline-none w-full bg-white p-4 rounded-md "

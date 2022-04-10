@@ -18,6 +18,8 @@ export const translateContry = (country) => {
 			return 'botswana';
 		case 'brasil':
 			return 'brazil';
+		case 'brasil':
+			return 'brazil';
 		case 'islas vírgenes británicas':
 			return 'British Virgin Islands';
 		case 'camboya':
