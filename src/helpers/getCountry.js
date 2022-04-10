@@ -5,6 +5,5 @@ export const getCountry = async (country) => {
 
 	const resp = await fetch(url);
 	const data = await resp.json();
-	console.log(data);
 	return { data, status: resp.status };
 };
