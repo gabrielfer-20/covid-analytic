@@ -20,15 +20,15 @@ export const SearchCountry = ({ setCountry }) => {
 	return (
 		<form
 			onSubmit={handleSubmit}
-			className="flex items-center relative md:w-2/6 w-full"
+			className="relative flex items-center w-full md:w-2/6"
 			id="form-search-country">
 			<input
 				type="text"
-				className="font-poppins shadow-md focus:outline-none w-full bg-white p-4 rounded-md "
+				className="w-full p-4 bg-white rounded-md shadow-md font-poppins focus:outline-none "
 				onChange={handleInput}
 				placeholder="Encuentra el pais que deseas"
 			/>
-			<button className="absolute right-4 leading-none bg-emerald-400 p-2 rounded-md">
+			<button className="absolute p-2 leading-none rounded-md right-4 bg-emerald-400">
 				<Img src={SearchIcon} height={21} width={21} />
 			</button>
 		</form>

@@ -6,13 +6,14 @@ export const Layout = ({ children }) => {
 		<>
 			<Head>
 				<title>Covid-19 Analytic</title>
+				<link rel="shortcut icon" href="/icons/favicon.ico" type="image/x-icon" />
 			</Head>
 
-			<div className="flex flex-col min-h-screen justify-between">
+			<div className="flex flex-col justify-between min-h-screen">
 				<div>
 					<Navbar />
 					<section className="container w-9/12 mx-auto mt-10">
-						<h2 className="text-3xl text-slate-800 text-center font-lato">
+						<h2 className="text-3xl text-center text-slate-800 font-lato">
 							Mira el estado de los paises infectados
 						</h2>
 
@@ -20,7 +21,7 @@ export const Layout = ({ children }) => {
 					</section>
 				</div>
 
-				<footer className="text-center text-base pb-8 text-slate-700">
+				<footer className="pb-8 text-base text-center text-slate-700">
 					By Gabriel Fernández
 				</footer>
 			</div>
